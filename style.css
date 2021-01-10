@@ -27,7 +27,30 @@ h2{
 
 h3{
   font-size:2vw;
+  font-weight:bold;
 }
+
+.scrolldowntext{
+  font-size:1vw;
+}
+
+h4{
+  color:white;
+  font-weight: bold;
+  font-size:1.3vw;
+}
+
+.footertext{
+  color:white;
+  font-size:1vw;
+}
+
+.footertext2{
+  color:white;
+  font-size:0.75vw;
+  font-weight:bolder;
+}
+
 /* header */
 #icons{
   padding-right:1vw;
@@ -73,5 +96,18 @@ h3{
 /* content scrolldown */
 .scrolldowncontent{
   height:100vh;
-  background-color:#AAADAC;
+  background-color:#D3D3D3;
+  display: flex;
+  align-items: center;
+}
+
+/* footer */
+.footer{
+  background-color: #C27177;
+  height:100%;
+  padding:2vw;
+}
+
+#footerimg{
+  width:50%;
 }

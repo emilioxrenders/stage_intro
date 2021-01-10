@@ -1,0 +1,77 @@
+body {
+background-color:white;
+color:#737B80;
+}
+
+/* fonts */
+p {
+font-size:0.8vw;
+font-weight:bolder;
+}
+
+a{
+  font-size:1vw;
+  font-weight:bolder;
+}
+
+h1{
+  font-size:3.4vw;
+  font-weight: bold;
+  color:white;
+}
+
+h2{
+  font-size:1.6vw;
+  font-weight: bolder;
+}
+
+h3{
+  font-size:2vw;
+}
+/* header */
+#icons{
+  padding-right:1vw;
+}
+#headerlogo{
+  height:70%;
+}
+
+#headerwrap{
+  padding:2vw;
+}
+
+/* content homepage */
+.content1wrap{
+  height:39vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color:#DDBFC0;
+}
+
+.content2wrap{
+  display:flex;
+  justify-content: flex-start;
+}
+
+.contentpadding1{
+  padding:10vw;
+}
+
+.contentpadding2{
+  padding:4vw;
+  padding-left:10vw;
+}
+
+/* card */
+.cardwrap{
+  position:absolute;
+  top:45vh;
+  width:100vw;
+}
+
+/* content scrolldown */
+.scrolldowncontent{
+  height:100vh;
+  background-color:#AAADAC;
+}
